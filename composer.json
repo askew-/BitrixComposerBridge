@@ -1,0 +1,23 @@
+{
+  "name": "MediaSoft/BitrixComposerBridge",
+  "description": "Bitrix --> Composer bridge",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrew Kluev",
+      "email": "a.kluev@php73.ru"
+    }
+  ],
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "MediaSoft\\" : "src/"
+    }
+  },
+  "require": {
+    "symfony/filesystem": "3.0.x"
+  },
+  "require-dev": {
+    "composer/composer": "dev-master"
+  }
+}
