@@ -1,6 +1,6 @@
 # MediaSoft Bitrix Composer Bridge
 
-Утилита позволяет создовать модули битрикс в форме пакета Composer.
+Утилита позволяет создавать модули битрикс в форме пакета Composer.
 
 ### Для интеграции утилиты необходимо выполнить два простых шага.
 
@@ -29,7 +29,7 @@ composer require mediasoft/bitrix-composer-bridge dev-master
     "extra": {
         "bitrix-module": {
             "name": "sample.module (Название папки вашего модуля в папке bitrix/modules целевого проекта)",
-            "path": "src/sample.module/ (Путь до модуля относительно файла composer.json вашего пакета"
+            "path": "src/sample.module/ (Путь до модуля относительно файла composer.json вашего пакета)"
         }
     }
 ```
